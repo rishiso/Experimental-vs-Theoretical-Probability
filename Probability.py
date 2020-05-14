@@ -4,8 +4,7 @@ from matplotlib import pyplot as plt
 def flip(n):
     heads = 0
     for i in range(n):
-        if randint(0, 1) == 0:
-            heads += 1
+        heads += (randint(0, 1) == 0)
     return heads / n
 
 
