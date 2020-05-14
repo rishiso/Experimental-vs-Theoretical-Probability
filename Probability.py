@@ -9,12 +9,14 @@ def flip(n):
     return heads / n
 
 
-max_flips = 100000
+max_flips = 10000
 
-x = list(range(100, max_flips, max_flips // 250))
+x = list(range(1, max_flips, max_flips // 500))
 y = list(map(flip, x))
 
 plt.plot(x, y, label="Experimental")
+plt.ylim(top=1)
+plt.ylim(bottom=0)
 plt.xlabel("Number of Coin Flips")
 plt.ylabel("Probability of Heads")
 plt.title("Experimental vs Theoretical Probability")
