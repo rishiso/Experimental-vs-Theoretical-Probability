@@ -1,5 +1,5 @@
 # Experimental-vs-Theoretical-Probability
-- The program creates a graph that illustrates experimental and theoretical probability in regards to coin flipping.
+- The program creates a graph experimental and theoretical probability in regards to coin flipping.
 - The main trend that the graph is demonstrating is the tendency for experimental probability to approach theoretical probability as the number of trials increase.
 - Pyplot from Matplotlib is used to graph the data.
 
