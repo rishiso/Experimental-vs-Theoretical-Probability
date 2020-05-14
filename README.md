@@ -1,7 +1,5 @@
-# Experimental-vs-Theoretical-Probability
-- The program creates a graph for experimental and theoretical probability in regards to coin flipping.
-- The main trend that the graph is demonstrating is the tendency for experimental probability to approach theoretical probability as the number of trials increases.
-- Data is generated using simulated coin flips.
+# Law of Large Numbers
+- The program graphs the experimental and theoretical probabiity of coin flipping to illustrate the Law of Large Numbers.
 - Pyplot from Matplotlib is used to graph the data.
 
 ![alt text](https://raw.githubusercontent.com/rishiso/Experimental-vs-Theoretical-Probability/master/Graph.png "Graphic")
